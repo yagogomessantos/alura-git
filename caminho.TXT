@@ -1,1 +1,12 @@
 cd C:/Users/yagos/Documents/git-github
+
+
+git init 
+git status
+git config --local user.name "nome" - poderia usar --global para ser aplicado geral e não no projeto local
+git config --local user.email "email"
+--->>> para ler seria = git config user.name ou git config user.email
+
+git log = mostra as alterações feitas no projeto
+git log --oneline = resumido
+git log --p = detalhado
